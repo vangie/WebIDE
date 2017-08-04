@@ -199,7 +199,7 @@ sub_docker() {
       if ! container_exist ; then
 
         echo "creating container $CONTAINER"
-        docker create -p 8080:8080 --env-file config -v coding-ide-home:/root/.coding-ide --name webide -h webide  webide/webide
+        docker create -p 8080:8080 --env-file config -v coding-ide-home:/root/.coding-ide -v $(pwd)/packages:/root/.coding-ide/packages --name webide -h webide  webide/webide
         valid_last_cmd
       elif [ "$RUNNING" == "true" ]; then
         echo "CRITICAL - $CONTAINER is running."

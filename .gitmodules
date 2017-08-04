@@ -1,9 +1,9 @@
 [submodule "backend"]
 	path = backend
-	url = ../WebIDE-Backend.git
+	url = git://github.com/Coding/WebIDE-Backend.git
 [submodule "frontend"]
 	path = frontend
-	url = ../WebIDE-Frontend.git
+	url = git://github.com/hackape/WebIDE-Frontend.git
 [submodule "frontend-webjars"]
 	path = frontend-webjars
-	url = ../WebIDE-Frontend-Webjars.git
+	url = git://github.com/Coding/WebIDE-Frontend-Webjars.git

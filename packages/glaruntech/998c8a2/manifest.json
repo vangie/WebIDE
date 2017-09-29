@@ -1,7 +1,7 @@
 {
     "meta": {
         "name": "glaruntech",
-        "version": "1.0.0",
+        "version": "998c8a2",
         "description": "Glaruntech Plugins",
         "author": "",
         "displayName": "Glaruntech Plugins"
@@ -10,7 +10,7 @@
         "name": "glaruntech",
         "displayName": "Glaruntech Plugins",
         "description": "Glaruntech Plugins",
-        "version": "1.0.0",
+        "version": "998c8a2",
         "author": ""
     }
 }
